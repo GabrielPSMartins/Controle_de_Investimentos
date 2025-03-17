@@ -79,3 +79,44 @@
     cursor: pointer;
     margin-top: 14px;
   }
+
+  .investment-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #1E2A38;
+    border-radius: 8px;
+  }
+  
+  .investment-table th, .investment-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+  }
+  
+  .investment-table th {
+    background-color: #2F4F4F;
+    color: #E0E0E0;
+  }
+  
+  .investment-table td {
+    color: #E0E0E0;
+  }
+  
+  .edit-btn, .delete-btn {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .edit-btn {
+    background-color: #FFC107;
+    color: #333;
+  }
+  
+  .delete-btn {
+    background-color: #DC3545;
+    color: white;
+  }
